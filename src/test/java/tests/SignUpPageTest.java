@@ -8,7 +8,7 @@ import pages.SignUpPage;
 
 public class SignUpPageTest extends BaseTest {
     
-    @Test
+	 @Test(priority = 2)
     public void testSignUp() throws InterruptedException {
         System.out.println("Executing SignUp Test");
         HomePage homePage = new HomePage(driver);

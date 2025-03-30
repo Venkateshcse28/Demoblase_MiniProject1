@@ -8,7 +8,7 @@ import pages.UserDashboardPage;
 
 public class LogoutTest extends BaseTest {
     
-    @Test
+	@Test(priority = 7)
     public void testLogout() {
     	 System.out.println("Executing Logout Test");
         HomePage homePage = new HomePage(driver);

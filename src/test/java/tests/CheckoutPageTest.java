@@ -7,7 +7,7 @@ import pages.CheckoutPage;
 
 public class CheckoutPageTest extends BaseTest {
     
-    @Test
+    @Test(priority = 6)
     public void testCheckout() throws InterruptedException {
     	 System.out.println("Executing checkout Test");
         CartPage cartPage = new CartPage(driver);

@@ -6,7 +6,7 @@ import pages.HomePage;
 
 public class HomePageTest extends BaseTest {
     
-    @Test
+    @Test(priority = 1)
     public void testSignInModalVisibility() {
     	System.out.println("Executing Homepage Test");
         HomePage homePage = new HomePage(driver);

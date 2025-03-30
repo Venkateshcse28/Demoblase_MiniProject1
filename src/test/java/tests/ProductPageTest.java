@@ -11,7 +11,7 @@ import pages.SignUpPage;
 
 public class ProductPageTest extends BaseTest {
     
-    @Test
+	@Test(priority = 4)
     public void testProductDetails() throws InterruptedException {
     	System.out.println("Executing ProductPageTest Test");
     	

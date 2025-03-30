@@ -12,7 +12,7 @@ import pages.SignUpPage;
 public class CartPageTest extends BaseTest {
 	
     
-    @Test
+	@Test(priority = 5)
     public void testPlaceOrder() throws InterruptedException {
     	System.out.println("Executing cartpage Test");
     	

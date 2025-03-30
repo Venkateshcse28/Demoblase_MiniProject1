@@ -10,7 +10,7 @@ import pages.UserDashboardPage;
 
 public class LoginPageTest extends BaseTest {
     
-    @Test
+	@Test(priority = 3)
     public void testLogin() throws InterruptedException {
     	System.out.println("Executing login Test");
     	
