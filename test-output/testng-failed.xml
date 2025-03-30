@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test thread-count="5" name="Command line test(failed)">
+    <classes>
+      <class name="tests.LoginPageTest">
+        <methods>
+          <include name="testLogin"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.LoginPageTest -->
+      <class name="tests.CheckoutPageTest">
+        <methods>
+          <include name="testCheckout"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CheckoutPageTest -->
+      <class name="tests.SignUpPageTest">
+        <methods>
+          <include name="testSignUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.SignUpPageTest -->
+      <class name="tests.CartPageTest">
+        <methods>
+          <include name="testPlaceOrder"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CartPageTest -->
+      <class name="tests.ProductPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testProductDetails"/>
+        </methods>
+      </class> <!-- tests.ProductPageTest -->
+      <class name="tests.LogoutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testLogout"/>
+        </methods>
+      </class> <!-- tests.LogoutTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demoblaze Test Suite">
+    <test name="E-commerce Tests">
+        <classes>
+            <class name="tests.HomePageTest"/>
+            <class name="tests.SignUpPageTest"/>
+            <class name="tests.LoginPageTest"/>
+            <class name="tests.ProductPageTest"/>
+            <class name="tests.CartPageTest"/>
+            <class name="tests.CheckoutPageTest"/>
+            <class name="tests.LogoutTest"/>
+        </classes>
+    </test>
+</suite>

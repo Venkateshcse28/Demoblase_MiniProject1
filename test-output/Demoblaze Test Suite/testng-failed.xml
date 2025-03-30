@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Demoblaze Test Suite]">
+  <test thread-count="5" name="E-commerce Tests(failed)">
+    <classes>
+      <class name="tests.HomePageTest">
+        <methods>
+          <include name="testSignInModalVisibility"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.CheckoutPageTest">
+        <methods>
+          <include name="testCheckout"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CheckoutPageTest -->
+      <class name="tests.LoginPageTest">
+        <methods>
+          <include name="testLogin"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.LoginPageTest -->
+      <class name="tests.LogoutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testLogout"/>
+        </methods>
+      </class> <!-- tests.LogoutTest -->
+      <class name="tests.CartPageTest">
+        <methods>
+          <include name="testPlaceOrder"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CartPageTest -->
+      <class name="tests.ProductPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testProductDetails"/>
+        </methods>
+      </class> <!-- tests.ProductPageTest -->
+    </classes>
+  </test> <!-- E-commerce Tests(failed) -->
+</suite> <!-- Failed suite [Demoblaze Test Suite] -->
