@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Demoblaze Test Suite">
+<suite name="Demoblaze Test Suite" preserve-order="true">
     <test name="E-commerce Tests">
         <classes>
             <class name="tests.HomePageTest"/>
