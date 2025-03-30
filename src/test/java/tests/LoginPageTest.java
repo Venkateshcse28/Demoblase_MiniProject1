@@ -20,7 +20,7 @@ public class LoginPageTest extends BaseTest {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.openLoginMenu();
         Thread.sleep(1000);
-        loginPage.enterUsername("newuser1017");
+        loginPage.enterUsername("newuser1020");
         Thread.sleep(1000);
         loginPage.enterPassword("password123");
         Thread.sleep(1000);

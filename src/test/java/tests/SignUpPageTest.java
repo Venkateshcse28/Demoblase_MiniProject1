@@ -17,7 +17,7 @@ public class SignUpPageTest extends BaseTest {
         SignUpPage signUpPage = new SignUpPage(driver);
         Assert.assertTrue(signUpPage.isSignUpModalVisible(), "Sign up modal is not visible");
 
-        signUpPage.enterUsername("newuser1017");
+        signUpPage.enterUsername("newuser1020");
         Thread.sleep(2000);
         signUpPage.enterPassword("password123");
         Thread.sleep(2000);
